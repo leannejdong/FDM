@@ -12,8 +12,10 @@ public:
     Fields();
     virtual ~Fields();
 
-    using vec1dField = vector<Fields>;
-
+    using vectorField1d = vector<Fields>;
+    using vectorField2d = vector<vector<Fields>>;
+    using scalardouble = double;
+    using longintt = int32_t;
     double value;
 };
 

@@ -23,6 +23,7 @@ int main() {
 //    std::cerr << mesh_.NumberOfNodes << "\n";
 //    std::cerr << mesh_.xgrid.size() << "\n";
     Fields UField;
+    #include "createFields.h"
 
     vector<Fields> UFieldvec(5);
     for(const auto& uvec : UFieldvec){

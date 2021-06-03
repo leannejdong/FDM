@@ -3,4 +3,4 @@ project(FDM)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(FDM main.cpp mesh.cpp mesh.h helper.h Fields.cpp Fields.h)
+add_executable(FDM main.cpp mesh.cpp mesh.h helper.h Fields.cpp Fields.h createFields.h 1dFDOpt.h)
