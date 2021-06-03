@@ -7,3 +7,7 @@
 Fields::Fields() :value(2.0) {
 
 }
+
+Fields::~Fields() {
+
+}
