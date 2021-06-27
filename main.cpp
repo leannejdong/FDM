@@ -2,6 +2,7 @@
 #include "mesh.h"
 #include "Fields.h"
 #include "helper.h"
+#include "1dFDOpt.h"
 using std::cerr;
 /*!
  * 1d -linear convection

@@ -17,6 +17,8 @@ public:
     using scalardouble = double;
     using longintt = int32_t;
     double value;
+    double x1d;
+    double x,y;
 };
 
 
